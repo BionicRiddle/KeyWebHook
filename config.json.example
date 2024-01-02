@@ -1,0 +1,30 @@
+{
+    "shortcuts": [
+        {
+            "keys": "0x10+0x11+0x12+0x31",
+            "comment": "shift + ctrl + alt + 1",
+            "url": "http://localhost/api/stuff",
+            "method": "GET",
+            "alertOnError": true
+        },
+        {
+            "keys": "0x10+0x11+0x12+0x32",
+            "url": "http://localhost/api/stuff",
+            "method": "POST",
+            "headers": {
+                "User-Agent": "ExampleApp/1.0"
+            },
+            "alertOnError": false
+        },
+        {
+            "keys": "0x10+0x11+0x12+0x33",
+            "url": "https://example.com/api/thing",
+            "method": "GET",
+            "headers": {
+                "Authorization": "Bearer example_access_token",
+                "User-Agent": "ExampleApp/1.0"
+            }
+        }
+    ],
+    "comment": "https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes"
+}
